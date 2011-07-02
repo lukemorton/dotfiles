@@ -6,6 +6,7 @@ git yourself a copy of this repo and run make.
     mkdir -p ~/dev
     cd ~/dev
     git clone git://github.com/DrPheltRight/dotfiles.git
+    cd dotfiles
     make
 
 Tada!
