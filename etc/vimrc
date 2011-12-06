@@ -5,9 +5,9 @@ imap jj <Esc>
 
 function! Tabstyle_tabs()
   " Using 4 column tabs
-  set softtabstop=4
-  set shiftwidth=4
-  set tabstop=4
+  set softtabstop=8
+  set shiftwidth=8
+  set tabstop=8
   set noexpandtab
   autocmd User Rails set softtabstop=4
   autocmd User Rails set shiftwidth=4
@@ -35,4 +35,4 @@ set t_Co=256 " 256 colors
 set background=dark 
 syntax on " syntax highlighting
 colorscheme ir_black
-
+set number
